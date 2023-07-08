@@ -58,6 +58,7 @@ class SpringBootSqlserverApplicationTests {
 	static {
 		SQLSERVER_CONTAINER.start();
 	}
+	
 
 	static {
 
