@@ -24,7 +24,7 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v6
       name: Build & push Docker image
       with:
-        image: olympusdockerid/springboot-sqlserver-testcontainers-ci-cd
+        image: tipsontech/springboot-sqlserver-testcontainers-ci-cd
         tags: v1, latest
         registry: docker.io
         dockerfile: Dockerfile
