@@ -20,7 +20,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn clean install
+      run: mvn clean build
     - uses: mr-smithers-excellent/docker-build-push@v6
       name: Build & push Docker image
       with:
